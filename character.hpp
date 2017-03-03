@@ -1,1 +1,6 @@
 // Character.hpp
+
+class Character
+{
+
+};

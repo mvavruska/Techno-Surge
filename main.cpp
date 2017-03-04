@@ -4,11 +4,14 @@
 #include <vector>
 using namespace std;
 
-struct Location {
+struct Location
+{
 	int coords[3];
 	string description;
-	Location(int[3] coordinates, string desc) {
 
+	Location( int coordinates[ 3 ], string desc ) :  description( desc )
+	{
+		for( int k = 0; k < 3; k++ ) coordinates[ k ] = coords[ k ];
 	}
 };
 

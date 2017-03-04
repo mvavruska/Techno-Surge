@@ -37,7 +37,117 @@ has happened and what the future now holds for \nthem.
 # [X,Y,Z] "STRING"
 # TODO	got rid of \, but \n changed to n
 #		\newline at the end of dialog string should be done programmically
-<COORDINATES>
+</COORDINATES>
+
+<LOOKCOORDINATES>
+[0,0,0] Upon further investigation of the area, there is nothing of note. The stench of garbage from the south is overwhelming, the street light continues to flicker nabove you.n
+[0,-1,0] Most of the items here are utterly pointless, however you notice various robot nparts scattered about the area appears to be a dumping site. It is odd to think that an alleyway would be suitable for dumping.n
+[-1,-1,0] Upon further inspection the dead end is apparently still just a dead end, nnothing is of note.n 
+[-1,0,0] The alleyway is in bad shape leaving clutter and garbage about. The sound of nglass crunching under your metallic foot can be heard as you make yourway nthrough the alleyway.n
+[-1,1,0] It appears that there was a major crash. The paths to the west and north areblocked by debris.n
+[-2,0,0] The manhole looks as if it has been through use, perhaps something or someone isdown there.n
+[-2,0,-1] The ladder is completely rusted, hopefully it will serve its purpose until you nare done with it.n
+[-3,0,-1] The bricks are a sickly green due to the lack of care and attention, vermin nscatter about as you progress.n
+[-3,1,-1] There is a faint shuffling sound followed by mumbling, everything else appears nto be in order.n
+[-2,1,-1] The man doesn't seem to pose any threat, it is best to just leave him be.n
+[-3,2,-1] There is a soft humming sound comming from the east, this area is noticeably ncleaner than the other sections of the sewer.n
+[-2,2,-1] The drone deosn't even look in your direction, it is too busy cleaning this nsection of the sewer.n
+[-3,3,-1] The grate in front of you doesn't budge, the waste flows through the grate.n
+[1,0,0] The alleyway is cleaner than most, there is no trash or clutter on the ground nanywhere.n
+[1,1,0] The narrow path to the north is darker than the current location, the dumpster nis filled to the brim with garbage. The surrounding buildings in the area look nabandoned.n
+[2,1,0] The stairs lead to a dimly lit hallway, there is nothing around at the moment.n
+[3,1,0] After inspecting the hallway it is devoid of all decoration and has nothing in nit.n
+[4,1,0] The hallway is well lit revealing nothing of use in the immediate area.n
+[4,2,0] The hallway seems to be more dimly lit than the last section.n
+[3,2,0] It's just a door, what do you expect to happen by staring at it?n
+[2,2,0] Most of the items here are old and defective and are of no use to you. All of nthe supplies have been looted, who exactly stole the supplies reamins as a nmystery.n
+[1,2,0] Are you stupid? It's a dead end, nothing is here, go back!n
+[2,0,0] You see a lot of rats scurrying around the alleyway, other than that there is nothing of note.n
+[3,0,0] This area's filth shows that the sewer is no longer manned by people.n
+[3,0,-1] You notice that the walls are grimy and disgusting, and the wall feels slimy to the touch.n
+[3,1,-1] The bricks in the wall are faded but the walls themselves are surprisingly nclean.n
+[3,2,-1] The bricks begin to resemble their original color, the vermin have also kept ntheir distance from the area.n
+[3,3,-1] The drone doesn't even look at you, he is too busy cleaning the sewer section.n
+[2,3,-1] Upon further investigation you hear a faint whiring noise coming from behind thebrick wall. Upon putitng your hand to it you realize that it is a hologram used to hide a section of the sewer.n
+[1,3,-1] The black market is bustling with scum and villains, they all appear to be npurchasing some kind weapon and/or harmful item. n
+[1,4,-1] There are yet more people around you and they appear to be staring at you. You nbegin to feel mightly uncomfortable in this illegal marketn
+[2,4,-1] The graffiti is a four digit number. The numbers are spray painted in a variety of neon colors. Staring too long may lead to loss of vision. Who could of put nthis here? n
+[1,5,-1] None of the ruffians are in the area. It is quiet but you can still hear yellingbehind you.n
+[1,6,-1] There are markings and divots scattered thorughout the wall, there is a nnoticeable line separating the black market section to the tunnel system.n
+[2,6,-1] You are wondering where the market went and why there is all this rubble and nwhere it is from?n 
+[3,6,-1] You notice that the rubble appears to be from old buildings and your curiousity begins to peak.n 
+[4,6,-1] There is a slight whistling sound coming from the north, perhaps the black nmarket has another section up ahead.n 
+[4,7,-1] There are markings on the floor indicating that something has been here before.n
+[5,7,-1] The markings from before continue and you are dumbstruck as to what they could npossibly mean.n
+[5,8,-1] You notice that there appears to have been a letter of some sort on the door butit is now illegiable due to the rust.n
+[5,6,-1] Aftering staring at the wall for hours you realize that nothing has changed, youshould just turn around.n 
+[0,1,0] The street lights are fully operational, the houses doors and windows are nboarded up and are unbreakable.n
+[0,2,0] You wonder if you are actually moving or if this really is just a really long nroad. But in the distance you see more buildings.n
+[0,3,0] You notice people walking around and they begin to stare at you menacingly.n
+[0,4,0] The door cannot be opened by hand, something will be needed to open it, nothing else of note can be found.n
+[1,4,0] It appears the higher end weapons have been taken, whether or not they have beenmoved or stolen is beyond you.n
+[2,4,0] The room is extremely bright and it is almost blinding to your optical circuits,the room itself is unadorned and has nothing of real interest in it.n
+[0,5,0] The alley is poorly lit and you have trouble adjusting to the darkness evenwith your advanced optic circuitry.n
+[0,6,0] The vermin struggle for food and scraps, one in particular attempts to bite yourfoot. This is ineffective and it leaves.n
+[-1,6,0] your optic sensors are freaking out due to this perpetual darkness and you nyourself begin to get concerned as this darkness seems unnatural.n
+[-3,6,0] The lack of people in this street is slightly unnerving but it does not truely nconcern you.n
+[-2,6,0] There are a few people wondering the street but it is mostly empty and they nappear to not take any notice of your presence.n
+[-3,7,0] The entrance is loosely guarded, the lights of the factory light up the entire narea.n
+[-3,8,0] The assembly lines carry various robotic parts used for military drones and nasd's.n
+[-2,8,0] The assembly lines seem to continue throughout the entire factory, all of which is manned by automated workers.n
+[-1,8,0] The platform you stand on currently bears the mark of Titan Robotics.n 
+[0,8,0] The computer seems to control more than the factory, however you aren't sure nwhat else it manipulates.n
+[-3,9,0] The area is filled with robotic parts and tools, not much can be used at the nmoment.n
+[1,6,0] There is nothing of note in the area, it is just an alleyway.n
+[2,6,0] The alleyway twists and bendsn
+[3,6,0] This alleyway is emptyn
+[4,5,0] The alleyway is filled with garbagen
+[4,6,0] There is nothing of noten
+[4,7,0] There is no end in sightn
+[2,5,0] All the paths look the samen
+[2,7,0] You wonder why this maze was placed here, the area is covered in garbagen
+[3,5,0] This may not even be an alley but just a mazen
+[3,7,0] It is almost impossible to see anythingn
+[5,6,0] It appears that the maze has ended, you are now on another street with buildingsas far as the eye can see.n
+[5,7,0] The guards are seamlessly patrolling the entrance to the tower, they may know nyour coming.n
+[5,8,0] The security droids are have left this area, they must be out looking for you.n
+[5,9,0] The tower's height seems to last longer than your visibility range, it looks ngenerally empty.n
+[5,13,-1] There is nothing of note in the area currentlyn
+[5,14,-1] The area is dark and dreary, not much else can be observed from here.n
+[4,14,-1] It is a large metal door that bears titans insgnia engraved in it.n
+[3,14,-1] You are surronded by a set of doors, most of which are locked.n
+[3,13,-1] The stationary closet contains nothingn
+[3,15,-1] The door is generally new, it slides open with even the slightest movement.n
+[3,16,-1] The weapons are useless as most would likely blow up when put in use.n
+[4,16,-1] The clipboards contian the progress and data for the weapons tested here. All ofwhich have failed miserably.n
+[3,17,-1] Not much can be seen from here at the moment.n
+[4,17,-1] None of the scrap on the table is useable to you.n
+[3,18,-1] Upon further inspection there is what appears to be an upgrading station in the far corner of the room. If you would like you could possibly upgrade yourself.n
+[2,14,-1] Looking closer at the door you find its architecture flawless and you wish you ncould have one.n
+[1,14,-1] You come to the realization that this is where you were tested upon when you nwere first made. Some of the test data shows failed human-machines and it is nclear to you that the limbs are recycled for future use.n
+[0,14,-1] After staring at the computer static you realize that you should get moving.n
+[1,15,-1] The hallway is a hallway, congrats for noticing. It is unadorned expect for a nsingle picture of Titan on the wall.n
+[0,15,-1] Most of these experients are clearly failed robots that are used for scrap for nfuture robots, none of these are active as they all are ripped open.n
+[2,15,-1] This appears to be another room for failed experimental robots.n
+[1,16,-1] You look around the room and you hear a familiar whiring noise coming from the nfar end of the room. It could be another hologram projector.n
+[1,17,-1] The hologram to the south has shutdown, the hallway onwards seems to stretch forhours.n
+[1,18,-1] The only lights on are the ones directectly above you, all other lights seem to shut off automatically when you leave a set range.n
+[1,19,-1] Looking closer you see that the door has the name Titan on it in big letters. nAfter trying to push it, you realize it is a pull door.n
+[1,20,-1] You see a big mech suit in the background with President Titan housed in the cockpit. This is the final battle.n
+[5,10,0] The desk clerk is unresponsive to your requests to speak with the President. Thescenery is very soothing.n 
+[4,9,0] There is glass case to one of the sides of the room.n 
+[6,9,0] The area is up to maintenence, nothing else is of use to you at this moment.n 
+[6,10,0] The furniture is thining out as you approach a door marked emergency exit.n 
+[6,11,0] The door is a bright red and is a push door, not the hated pull doors.n 
+[4,10,0] It seems Titan is a tad bit self centered as there are only pictures of himself.n 
+[4,11,0] It is unknown how exactly was in the picture as it is broken beyond repair.n 
+[5,11,0] You are selfish to only want to save yourself and not anyone else. But it is nyour immediate goal to save yourself other can come later.n 
+[5,11,1] The elevator will not move unless you want it to fall uncontrollably.n 
+[5,10,1] The wall is painted a sickly red, you realize that it is human blood that paints the wall.n 
+[5,9,1] The elevator will not budge, nor will it open.n 
+[5,11,-1] The hallway has no orinetation at all and is dimly lit, there is nothing of any important to you here. n 
+[5,12,-1] The elevator door cannot be opened, the door to the bunker is large and metal.n 
+</LOOKCOORDINATES>
 [0,0,0] You are standing in a dimly lit street, with street lights flickering above you.To the west and east of you are pathways. To the north is a brightly lit street.To the south is an alleyway filled with garbage.n
 [0,-1,0] You enter an area covered in trash and filth, there are items scattered around, some might be important regardless if it is found in the trash.n
 [-1,-1,0] The passage seems to be nothing but a dead end.n 
@@ -143,7 +253,7 @@ str(code)+""",thenumbershoweverseem\tobeinsignificant.\n""":[2,4,-1] The graffit
 [5,11,0] You can ascend to the top of the tower from here. You realize that this finally may be the end of your journey. You will finally be able to take out Titan andnsave yourself.n 
 [5,11,1] You are on the top floor of Titan tower, the elevator is locked in place andnappears like it will require something to unlock it, without any way ofnunlocking it you can only go to the South.n 
 [5,10,1] You walk out into the hallway.n 
-[5,9,1] nWith the destroyed husk of Titans bodyguard behind you, you enter the Office, nonly to find it empty. The office appears like someone left in a hurry, therenare papers scattered across the floor. You notice one of them has a diagram ofnyou on it, you dismiss it as irrelevant for you are now making something of yourself and don't want to be dragged down by the past. You notice an elevatornbehind the desk, you go up to it and notice that it won’t open.n 
+[5,9,1] nWith the destroyed husk of Titans bodyguard behind you, you enter the Office, nonly to find it empty. The office appears like someone left in a hurry, therenare papers scattered across the floor. You notice one of them has a diagram ofnyou on it, you dismiss it as irrelevant for you are now making something of yourself and don't want to be dragged down by the past. You notice an elevatornbehind the desk, you go up to it and notice that it wonÂ’t open.n 
 [5,11,-1] As the Elevator descended you thought that the end will finally come, younrealized that there is no other way, you cannot negotiate with this mad man. He has to be taken out to insure you freedom. The elevator door opens and you see ahallway leading North.n 
 [5,12,-1] As you approach you notice a big metal door to the north, the elevator lockednbehind you. It appears that the door is the entrance to a bunker, Titans bunker.n 
 [-2,2,0] You climb into a strange room, hearing heavy breathing, emnating from this nfigure in the corner.n   

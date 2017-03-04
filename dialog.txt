@@ -78,7 +78,6 @@ str(code)+""",thenumbershoweverseem\tobeinsignificant.\n""":[2,4,-1] The graffit
 [4,7,-1] The tunnel makes a sharp turn eastward.n
 [5,7,-1] The tunnel makes another sudden turn, this time to the north.n
 [5,8,-1] In front of you is a door that has been through much use, it is covered in rust.n
-:[5,9,-1] """: [5, 9, -1]
 [5,6,-1] The passage seems to be nothing but a dead end. n 
 [0,1,0] The street you are now on is greatly illuminated, there are paths to the west,neast, a narrow passage to the north, and of course south is where you started noff.n
 [0,2,0] The street continues northward for what seems like miles and still continuesnonwards.n

@@ -36,7 +36,7 @@ has happened and what the future now holds for \nthem.
 
 # [X,Y,Z] "STRING"
 # TODO	got rid of \, but \n changed to n
-#		\newline at the end of dialog string should be done programmically
+#		newline at the end of dialog string should be done programmically
 <COORDINATES>
 [0,0,0] You are standing in a dimly lit street, with street lights flickering above you.To the west and east of you are pathways. To the north is a brightly lit street.To the south is an alleyway filled with garbage.n
 [0,-1,0] You enter an area covered in trash and filth, there are items scattered around, some might be important regardless if it is found in the trash.n
@@ -69,7 +69,7 @@ has happened and what the future now holds for \nthem.
 [2,3,-1] The sewer seems to end abruptly however some of the bricks seem to be brighternthan the surrounding bricks. It looks like the only way out is to head back.n
 [1,3,-1] After you open the hidden door you discover Zaon's black market. It is bustling with modified titan drones that have been reprogrammed to sell merchandise.nThe market continues north.n
 [1,4,-1] As you move on through the market you notice graffiti on the wall to the eastnwhich is illegible from here. There are more shops around but they are uselessnto you since you don't have any money. You can continue north through the marketn
-str(code)+""",thenumbershoweverseem\tobeinsignificant.\n""":[2,4,-1] The graffiti on the wall is clearer now that you are closer to the wall. Thengraffiti on the wall is four numbers which are,
+[2,4,-1] The graffiti on the wall is clearer now that you are closer to the wall. Thengraffiti on the wall is four numbers which are,
 [1,5,-1] You notice that the shops are beginning to thin out as you continue headingnnorth. You can turn back or continue on from here.n
 [1,6,-1] The shops end suddenly and you are now in what appears to be in a undergroundntunnel system. The tunnels continue eastward.n
 [2,6,-1] The tunnel continues to the east, there is nothing around except dirt and rubblen 
@@ -145,7 +145,7 @@ str(code)+""",thenumbershoweverseem\tobeinsignificant.\n""":[2,4,-1] The graffit
 [5,9,1] nWith the destroyed husk of Titans bodyguard behind you, you enter the Office, nonly to find it empty. The office appears like someone left in a hurry, therenare papers scattered across the floor. You notice one of them has a diagram ofnyou on it, you dismiss it as irrelevant for you are now making something of yourself and don't want to be dragged down by the past. You notice an elevatornbehind the desk, you go up to it and notice that it won’t open.n 
 [5,11,-1] As the Elevator descended you thought that the end will finally come, younrealized that there is no other way, you cannot negotiate with this mad man. He has to be taken out to insure you freedom. The elevator door opens and you see ahallway leading North.n 
 [5,12,-1] As you approach you notice a big metal door to the north, the elevator lockednbehind you. It appears that the door is the entrance to a bunker, Titans bunker.n 
-[-2,2,0] You climb into a strange room, hearing heavy breathing, emnating from this nfigure in the corner.n   
+[-2,2,0] You climb into a strange room, hearing heavy breathing, emnating from this nfigure in the corner.\n                       .-.\n                      |_:_|\n                     /(_Y_)\\n                    ( \/M\/ )\n '.               _.'-/'-'\-'._\n   ':           _/.--'[[[[]'--.\_\n     ':        /_'  : |::"| :  '.\\n       ':     //   ./ |oUU| \.'  :\\n         ':  _:'..' \_|___|_/ :   :|\n           ':.  .'  |_[___]_|  :.':\\n            [::\ |  :  | |  :   ; : \\n             '-'   \/'.| |.' \  .;.' |\n             |\_    \  '-'   :       |\n             |  \    \ .:    :   |   |\n             |   \    | '.   :    \  |\n             /       \   :. .;       |\n            /     |   |  :__/     :  \\n           |  |   |    \:   | \   |   ||\n          /    \  : :  |:   /  |__|   /|\n          |     : : :_/_|  /'._\  '--|_\\n          /___.-/_|-'   \  \\n                         '-'\n\n You also happen to see a familiar spherical spacestation lit up in red\n    .          .\n  .          .                  .          .              .\n        +.           _____  .        .        + .                    .\n    .        .   ,-~"     "~-.                                +\n               ,^ ___         ^. +                  .    .       .\n              / .^   ^.         \         .   \n             Y  l  o  !          Y  .        .\n     .       l_ `.___.'        _,[                    +\n             |^~"-----------""~ ^|\n   +       . !                   !     .           .\n          .   \                 /          \n               ^.             .^            .      "       +.\n                 "-.._____.,-" .                    .\n          +           .                .   +                       .\n   +          .             +                                  .\nThe man strikes you by manipulating the gravity and splits you in half
 </COORDINATES>
 
 <LOOKCOORDINATES>

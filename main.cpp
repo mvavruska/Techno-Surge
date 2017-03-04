@@ -2,29 +2,28 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "character.hpp"
+#include "weapon.hpp"
 using namespace std;
 
-struct Location {
-	int coords[3];
+// GLOBALS
+Character m_player;
+// STRUCTS
+struct Location
+{
+	int coords[ 3 ];
 	string description;
-	Location(int[3] coordinates, string desc) {
-		coords = coordinates;
-		description = desc;
-	}
-};
 
-class Player {
-private:
-	bool beatTower;
-	bool beatGame;
-	bool fled;
-	bool died;
+	Location( int coordinates[ 3 ], string desc ) :  description( desc )
+	{
+		for( int k = 0; k < 3; k++ ) coordinates[ k ] = coords[ k ];
+	}
 };
 
 int main()
 {
-	vector<Location> visitedlocations;//vector of locations visited
-	int code = rand() % 9000 + 1000;
-	//start location set to [0,0,0]
+	// player; start location [0,0,0]
+	m_player = Character( new Location( new int[]{ 0, 0, 0 }, "" ));
+
 	return 0;
 }

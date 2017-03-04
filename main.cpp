@@ -2,11 +2,16 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "character.hpp"
+#include "weapon.hpp"
 using namespace std;
 
+// GLOBALS
+Character m_player;
+// STRUCTS
 struct Location
 {
-	int coords[3];
+	int coords[ 3 ];
 	string description;
 
 	Location( int coordinates[ 3 ], string desc ) :  description( desc )
@@ -17,7 +22,8 @@ struct Location
 
 int main()
 {
-	//vector of locations visited
-	//start location set to [0,0,0]
+	// player; start location [0,0,0]
+	m_player = Character( new Location( new int[]{ 0, 0, 0 }, "" ));
+
 	return 0;
 }

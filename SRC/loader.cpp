@@ -9,6 +9,9 @@ void Loader::newGame( Game g )
 
 void Loader::loadGame()
 {
+	// STATIC DATA
+
+	// DYNAMIC DATA
 
 }
 
@@ -26,7 +29,8 @@ void Loader::saveGame()
 void writeData( ostream& output, Game g )
 {
 	// player
-	output << getTag( "PLAYER", g.m_player );
+	output << "<PLAYER>" << g.m_player;
+	output << "</PLAYER>";
 	// characters
 	// TODO create operator<< function for character struct/class?
 }

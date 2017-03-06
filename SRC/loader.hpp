@@ -1,5 +1,6 @@
 // load/update save files for game
 #include <iostream>
+#include <fstream>
 #include <string>
 using namespace std;
 #ifndef GAME
@@ -12,20 +13,19 @@ class Loader
 private:
 	// GLOBALS
 	std::string fileName;
-	// FUNCTIONS
-
 	// STRUCT
 	static string getTag( string tag, string content ) { return "<" + tag + ">" + content + "<\\" + tag + ">"; }
-public:
-	Loader() : fileName( "" ) { }
-	void newGame( Game g );
+	// FUNCTIONS
+	void newGame( Game );
 	void loadGame();
+	void readData( istream&, Game );
+	void writeData( ostream&, Game );
+
+public:
+	Loader( Game*, int ) : fileName( "" ) { }
 	void autoSave();
 	void saveGame();
 
-	void readData( istream&, Game );
-	void writeData( ostream&, Game );
 };
 
-inline operator<<( ostream& out, Tag c		 ) { c.print( out ); }
-inline operator<<( ostream& out, Character c ) { c.print( out ); }
+inline int operator<<( ostream& out, Character c ) { c.print( out ); }

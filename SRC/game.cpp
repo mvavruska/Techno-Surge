@@ -1,21 +1,16 @@
 #include "game.hpp"
-#include <iostream>
-using namespace std;
 
-int Game::menu()
+// default values incase create/load fail
+Game::Game()
 {
-	cout << "Techno Surge v0.1\n" <<
-			"------------------\n" <<
-			"0: Create New Game\n" <<
-//TODO		"1: Load Game\n" <<
-			"2: Exit\n";
-	int x;
-	cin >> x;
-	return 0;
+	//m_player = Character( new Location( 0, 0, 0 ));	TODO  LOCATION OPTIONS: Location[][][] Location( int, int, int ) Location[]( Tuple )
 }
 
-// init
-Game::Game( int x )
+//
+void Game::gameLoop()
 {
-	
+	while( m_running )
+	{
+
+	}
 }

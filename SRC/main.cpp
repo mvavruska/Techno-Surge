@@ -1,26 +1,21 @@
 // main.cpp
 // starting point, setup Game class
 #include "game.hpp"
+#include "loader.hpp"
 
 int menu();
 
 // program execution start point
 int main()
 {
-	int option = Game::menu();	// menu new:load:exit
-	switch( x )
-	{
-		case 0: // create new game
-			Loader::newGame();
-			break;
-	}
-	Loader m_game;
-	Game game( m_game );		// setup
-	game.resume();				// resume game loop
+	int option = menu();						// menu new:load:exit
+	Game game = Game();							// setup
+	Loader m_game = Loader( &game, option );	// create or load game data
+	game.gameLoop();							// resume game loop
 
 	// MOVE TO GAME.CPP....
-	m_player = Character();
-	int[] location, location2 = { 0,0,0 };
+	// m_player = Character();
+	// int[] location, location2 = { 0,0,0 };	// locations will be loaded by file, character set to Location { 0, 0, 0 }
 	vector<int[]> visitedlocations;
 	vector<Location> locations;
 	int passcode = 1234; //will need to be randomly generated between 1000-9999
@@ -165,5 +160,13 @@ int main()
 
 int menu()
 {
-
+	cout << "Techno Surge v0.1\n" <<
+			"------------------\n" <<
+			"0: Create New Game\n" <<
+//TODO		"1: Load Game\n" <<
+			"2: Exit\n";
+	int x;
+	cin >> x;
+	x = max( 0, min( 2, x ));
+	return x;
 }

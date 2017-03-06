@@ -1,15 +1,24 @@
 // main.cpp
+// starting point, setup Game class
 #include "game.hpp"
-using namespace std;
 
+int menu();
 
-
+// program execution start point
 int main()
 {
 	int option = Game::menu();	// menu new:load:exit
-	Game game( option );		// setup
+	switch( x )
+	{
+		case 0: // create new game
+			Loader::newGame();
+			break;
+	}
+	Loader m_game;
+	Game game( m_game );		// setup
 	game.resume();				// resume game loop
-	//
+
+	// MOVE TO GAME.CPP....
 	m_player = Character();
 	int[] location, location2 = { 0,0,0 };
 	vector<int[]> visitedlocations;
@@ -152,4 +161,9 @@ int main()
 
 
 	return 0;
+}
+
+int menu()
+{
+
 }

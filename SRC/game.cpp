@@ -17,10 +17,5 @@ int Game::menu()
 // init
 Game::Game( int x )
 {
-	switch( x )
-	{
-		case 0: // create new game
-			Loader::newGame();
-			break;
-	}
+	
 }

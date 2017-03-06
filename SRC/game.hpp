@@ -1,7 +1,6 @@
 // Game Execution; manages all aspects of game
 #include "character.hpp"
 #include "weapon.hpp"
-#include "loader.hpp"
 
 #include <iostream>
 #include <string>
@@ -13,6 +12,9 @@ using namespace std;
 class Game
 {
 public:
+	// Variables
+	Character m_player;
+	// 
 	static int menu();
 	
 	Game() = default;
@@ -20,8 +22,6 @@ public:
 	void resume();
 private:
 	// GLOBALS
-	Loader m_game;
-	Character m_player;
 	// STRUCTS
 	struct Location
 	{

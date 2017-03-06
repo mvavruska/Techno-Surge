@@ -1,19 +1,14 @@
 // main.cpp
-#include <iostream>
-#include <string>
-#include <tuple>
-#include <algorithm>
-#include <vector>
-#include "stateManager.hpp"
+#include "game.hpp"
 using namespace std;
 
 
 
 int main()
 {
-	int option = Game.menu();
-	Game game = new Game( option );
-	game.resume();
+	int option = Game::menu();	// menu new:load:exit
+	Game game( option );		// setup
+	game.resume();				// resume game loop
 	//
 	m_player = Character();
 	int[] location, location2 = { 0,0,0 };

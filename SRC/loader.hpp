@@ -8,7 +8,8 @@ private:
 
 public:
 	Loader() = default;
-	void loadGame();
-	void newGame();
-	void autoSave();
+	static void newGame();
+	static void loadGame();
+	static void autoSave();
+	static void saveGame();
 };

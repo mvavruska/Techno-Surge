@@ -3,8 +3,21 @@
 #include "weapon.hpp"
 #include "loader.hpp"
 
+#include <iostream>
+#include <string>
+#include <tuple>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
 class Game
 {
+public:
+	static int menu();
+	
+	Game() = default;
+	Game( int );
+	void resume();
 private:
 	// GLOBALS
 	Loader m_game;
@@ -27,6 +40,6 @@ private:
 
 		Action( string k, string c ) : keyword( k ), command( c );
 	};
-public:
+	// FUNCTIONS
 
 };

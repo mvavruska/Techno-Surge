@@ -4,33 +4,17 @@
 #include <tuple>
 #include <algorithm>
 #include <vector>
-#include "character.hpp"
-#include "weapon.hpp"
+#include "stateManager.hpp"
 using namespace std;
 
-// GLOBALS
-Character m_player;
-// STRUCTS
-struct Location
-{
-	int coords[ 3 ];
-	string description;
 
-	Location( int coordinates[ 3 ], string desc ) :  description( desc )
-	{
-		for( int k = 0; k < 3; k++ ) coordinates[ k ] = coords[ k ];
-	}
-};
-struct Action
-{
-	string keyword;
-	string command;
-
-	Action(string k, string c) : keyword(k), command(c);
-};
 
 int main()
 {
+	int option = Game.menu();
+	Game game = new Game( option );
+	game.resume();
+	//
 	m_player = Character();
 	int[] location, location2 = { 0,0,0 };
 	vector<int[]> visitedlocations;

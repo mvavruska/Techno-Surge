@@ -1,40 +1,41 @@
 #include "loader.hpp"
 
-void Loader::newGame( Game g )
+namespace load
 {
-	for( int k = 0; ifstream( ( fileName = "game_" + to_string( k ) + ".txt" ) ).bad(); k++ ); // loop looking for unused file name "game_" + k + ".txt"
-	// init file
-	writeData( ofstream( fileName ), g );
+	void newGame( Game g )
+	{
+
+	}
+
+	void loadGame( Game g )
+	{
+		// STATIC DATA
+
+		// DYNAMIC DATA
+
+	}
+
+
+	void autoSave()
+	{
+
+	}
+
+	void saveGame()
+	{
+
+	}
+
+	void writeData( std::ostream& output, Game g )
+	{
+		// player
+		output << "<PLAYER>" << g.m_player;
+		output << "</PLAYER>";
+		// characters
+		// TODO create operator<< function for character struct/class?
+	}
+
 }
-
-void Loader::loadGame()
-{
-	// STATIC DATA
-
-	// DYNAMIC DATA
-
-}
-
-
-void Loader::autoSave()
-{
-
-}
-
-void Loader::saveGame()
-{
-
-}
-
-void writeData( ostream& output, Game g )
-{
-	// player
-	output << "<PLAYER>" << g.m_player;
-	output << "</PLAYER>";
-	// characters
-	// TODO create operator<< function for character struct/class?
-}
-
 /*
 SAVE FILE FORMAT:
 player

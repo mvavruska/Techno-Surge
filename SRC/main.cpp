@@ -8,20 +8,32 @@ int menu();
 // program execution start point
 int main()
 {
-	int option = menu();						// menu new:load:exit
-	Game game = Game();							// setup
-	Loader m_game = Loader( &game, option );	// create or load game data
-	game.gameLoop();							// resume game loop
+	Game game = Game();				// setup
+	int option = Game::menu();		// menu new:load:exit
+	switch( option )
+	{
+		case NEW:
+			load::newGame( game );
+			game.resume();
+			break;
+		case LOAD:
+			load::loadGame( game );
+			game.resume();
+			break;
+		default:
+	}
+	
 
 	// MOVE TO GAME.CPP....
 	// m_player = Character();
 	// int[] location, location2 = { 0,0,0 };	// locations will be loaded by file, character set to Location { 0, 0, 0 }
-	vector<int[]> visitedlocations;
+	/*
+	std::vector<int[]> visitedlocations;
 	vector<Location> locations;
 	int passcode = 1234; //will need to be randomly generated between 1000-9999
 	bool victory = true;
 	bool gameover, gamebeaten, dead, TowerBeaten, fled = false;
-	cout << "prologue goes here..." << endl; // will eventually print prologue
+	std::cout << "prologue goes here..." << std::endl; // will eventually print prologue
 	while (!gameover)
 	{
 		while (!gamebeaten)
@@ -153,20 +165,7 @@ int main()
 			exit(1);
 		}
 	}
-
+	*/
 
 	return 0;
-}
-
-int menu()
-{
-	cout << "Techno Surge v0.1\n" <<
-			"------------------\n" <<
-			"0: Create New Game\n" <<
-//TODO		"1: Load Game\n" <<
-			"2: Exit\n";
-	int x;
-	cin >> x;
-	x = max( 0, min( 2, x ));
-	return x;
 }

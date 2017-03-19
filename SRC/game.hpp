@@ -1,3 +1,4 @@
+#pragma once
 // Game Execution; manages all aspects of game
 #include "character.hpp"
 #include "weapon.hpp"
@@ -7,26 +8,31 @@
 #include <tuple>
 #include <algorithm>
 #include <vector>
-using namespace std;
 
 // ENUM
-enum PL_STATE { ALIVE, DEAD };	// player state
+enum MENU		{ NEW, LOAD, EXIT };
+enum PL_STATE	{ ALIVE, DEAD };	// player state
+enum ACTION		{ MOVE, ATTACK, FLEE };
 // STRUCTS
-struct Location
+struct location
 {
-	int* m_coords;
-	string m_name;
-
-	Location( int x, int y, int z, string n ) : m_coords( new int[]{ x, y, z } ), m_name( n ) { }
+	int x, y, z;
+	std::string name;
+	location( int p_x, int p_y, int p_z, std::string p_name ) : x( p_x ), y( p_y ), z( p_z ), name( p_name ) { }
 };
-// lol Matt this ain't Python
-struct Action
+
+struct action
 {
-	string keyword;
-	string command;
+	std::string keyword;
+	std::string command;
 
-	Action( string k, string c ) : keyword( k ), command( c ) { }
+	action( std::string k, std::string c ) : keyword( k ), command( c ) { }
 };
+
+bool operator==( location& a, location& b )
+{
+	return a.x == b.x && a.y == b.y && a.z == b.z;
+}
 
 class Game
 {
@@ -35,11 +41,14 @@ public:
 	Character m_player;
 	// FUNCTIONS
 	Game();
-	void gameLoop();
+	void resume();
+	static int menu();
 private:
 	// GLOBALS
-	bool m_running;
-	PL_STATE m_player_state;	// this might belong better in the character class, will have to be flexible to handle all characters
+	bool m_running, m_victory;
+	PL_STATE m_playerState;	// this might belong better in the character class, will have to be flexible to handle all characters
+	std::vector<location> m_visited;
 	// FUNCTIONS
-
+	void gameLoop();
+	void action( ACTION );
 };
